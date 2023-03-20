@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'Inter';
+    src: url(../fonts/InterRegular.woff);
+}
+
+.page {
+    min-width: 1280px;
+    max-width: 1600px;
+    margin: 0 auto;
+    font-family: 'Inter';
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    background-color: #2A2C2F;
+}
+
+.header {
+    max-width: 90%;
+    width: 100%;
+    display: flex;
+    margin: 28px auto 0 auto;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 176px;
+    height: 52px;
+}
+
+.header__lang {
+    display: flex;
+    gap: 18px;
+
+}
+
+.header__link {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+    background-color: #2A2C2F;
+    border: none;
+}
+
+.header__link:focus {
+    text-decoration: underline;
+}
+
+.content {}
+
+.lead {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 77%;
+    width: 100%;
+    margin: 56px auto 0 auto;
+}
+
+.lead__title {
+    text-align: center;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 1.04;
+    margin: 0 auto;
+}
+
+.lead__subtitle {
+    text-align: center;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 1.2;
+    margin: 32px auto 0 auto;
+}
+.lead__image {
+width: 984px;
+height: 615px;
+margin-top: 64px;
+}
+.lead__caption {
+    margin-top: 8px;
+    font-weight: 400;
+font-size: 10px;
+line-height: 1.4;
+letter-spacing: 1.5px;
+text-transform: uppercase;
+}
