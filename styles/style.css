@@ -137,3 +137,25 @@
     list-style: none;
     padding-left: 0;
 }
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+    gap: 16px;
+    margin-top: 92px;
+    justify-items: stretch;
+}
+/* 
+
+@media screen and (max-width: 768px) {
+    .photo-grid {
+        grid-template-columns: repeat(auto-fit, minmax(352px, 1fr));  
+    }
+    
+}
+
+@media screen and (max-width: 1024px) {
+    .photo-grid {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));  
+    }
+    
+} */
