@@ -11,23 +11,23 @@
 
 <body>
     <div class="page">
-        <header class="header container-l">
+        <header class="header">
             <img class="logo" alt="Логотип" src="./image/logo.png">
             <div class="header__lang">
-                <button class="header__link" href="#">Ru</button>
-                <button class="header__link" href="#">En</button>
+                <button class="header__link">Ru</button>
+                <button class="header__link">En</button>
             </div>
         </header>
         <main class="content">
-            <section class="lead container-s">
+            <section class="lead">
                 <h1 class="lead__title">Путешествия по России</h1>
                 <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-                <div><img class="lead__image" src="./image/lead-image.png" alt="#">
+                <div class="lead__img"><img class="lead__image" src="./image/lead-image.png" alt="Человек спит на боковой полке поезда. На фоне схематический маршрут.">
                     <p class="lead__caption">ваша полка — верхняя</p>
                 </div>
 
             </section>
-            <section class="intro container-s">
+             <section class="intro">
                 <div class="intro__items">
                     <h2 class="intro__title">Чего мы там не видели?</h2>
                     <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают
@@ -50,30 +50,30 @@
                     </ul>
                 </div>
             </section>
-            <section class="photo-grid container-l">
-                <img class="" alt="" src="./image/photo-grid/photo1.png">
-                <img class="" alt="" src="./image/photo-grid/photo2.png">
-                <img class="" alt="" src="./image/photo-grid/photo3.png">
-                <img class="" alt="" src="./image/photo-grid/photo4.png">
-                <img class="" alt="" src="./image/photo-grid/photo5.png">
-                <img class="" alt="" src="./image/photo-grid/photo6.png">
-                <img class="" alt="" src="./image/photo-grid/photo7.png">
-                <img class="" alt="" src="./image/photo-grid/photo8.png">
-                <img class="" alt="" src="./image/photo-grid/photo9.png">
-                <img class="" alt="" src="./image/photo-grid/photo10.png">
-                <img class="" alt="" src="./image/photo-grid/photo11.png">
-                <img class="" alt="" src="./image/photo-grid/photo12.png">
+            <section class="photo-grid" aria-lebel="Галерея">
+                <img class="" alt="Вид из окна поезда" src="./image/photo-grid/photo1.png">
+                <img class="" alt="Вершины гор в облаках" src="./image/photo-grid/photo2.png">
+                <img class="" alt="Степной волк на стоге сена" src="./image/photo-grid/photo3.png">
+                <img class="" alt="Туманный лес" src="./image/photo-grid/photo4.png">
+                <img class="" alt="Колесо автомобиля на льду Байкала" src="./image/photo-grid/photo5.png">
+                <img class="" alt="Морское побережье" src="./image/photo-grid/photo6.png">
+                <img class="" alt="Снежные шапки на горах" src="./image/photo-grid/photo7.png">
+                <img class="" alt="Пешеходный переход" src="./image/photo-grid/photo8.png">
+                <img class="" alt="Вулкан Мутновский на Камчатке" src="./image/photo-grid/photo9.png">
+                <img class="" alt="Сопка Камчатки" src="./image/photo-grid/photo10.png">
+                <img class="" alt="Скалистый берег моря" src="./image/photo-grid/photo11.png">
+                <img class="" alt="Горы в тумане" src="./image/photo-grid/photo12.png">
             </section>
 
-            <section class="places container-s">
+           <section class="places">
                 <ul class="place">
                     <li class="place__item">
                         <h3 class="place__title">Куршская коса</h3>
                         <div class="place__website">
                             <p class="place__url-heading">URL</p>
-                            <a class="place__link" href="#">park-kosa.ru</a>
+                            <a class="place__link" href="http://park-kosa.ru">park-kosa.ru</a>
                         </div>
-                        <img class="place__image" src="./image/places/place1.png">
+                        <img class="place__image" src="./image/places/place1.png" alt="Куршская коса">
                         <div class="place__paragraph">
                             <p>Здесь, посреди лесов и песчаных дюн,
                                 вы сможете увидеть два водных горизонта — спокойного Куршского
@@ -92,9 +92,9 @@
                         <h3 class="place__title">Кольский</h3>
                         <div class="place__website">
                             <p class="place__url-heading">URL</p>
-                            <a class="place__link" href="#">National Geographic</a>
+                            <a class="place__link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy">National Geographic</a>
                         </div>
-                        <img class="place__image" src="./image/places/place2.png">
+                        <img class="place__image" src="./image/places/place2.png" alt="Замерзшее Баренцево море">
                         <div class="place__paragraph">
                             <p>Почти весь полуостров находится за Полярным
                                 кругом. Саамская тундра, от которой на юг —
@@ -112,9 +112,9 @@
                         <h3 class="place__title">Алтай</h3>
                         <div class="place__website">
                             <p class="place__url-heading">URL</p>
-                            <a class="place__link" href="#">YouTube</a>
+                            <a class="place__link" href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ">YouTube</a>
                         </div>
-                        <img class="place__image" src="./image/places/place3.png">
+                        <img class="place__image" src="./image/places/place3.png" alt="Вид на сосновый лес Алтая">
                         <div class="place__paragraph">
                             <p>Алтай — одно из красивейших мест в России.
                                 В первую очередь из-за гор: если ехать вдоль хребта, вы увидите склоны,
@@ -130,27 +130,25 @@
                         <h3 class="place__title">Зимний Байкал</h3>
                         <div class="place__website">
                             <p class="place__url-heading">URL</p>
-                            <a class="place__link" href="#">https://vk.com/baikalmile</a>
+                            <a class="place__link" href="https://vk.com/baikalmile">https://vk.com/baikalmile</a>
                         </div>
-                        <img class="place__image" src="./image/places/place4.png">
+                        <img class="place__image" src="./image/places/place4.png" alt="Прозрачный лёд Байкала">
                         <div class="place__paragraph">
-                            <p>Всем известен Байкал как крупнейшее озеро
-                                в мире. Многие также знают, что это самый большой источник пресной
-                                воды и одно из красивейших мест в России.</p>
-                            <p>Конечно, это всё так. Но Байкал ещё идеальное
-                                место для соревнований по скийорингу. Это такой вид спорта, когда
-                                лыжник привязывает себя к мотоциклу, и тандем старается развить
-                                как можно бóльшую скорость на льду. В марте 2019 года на фестивале
-                                «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.</p>
+                            <p>Всем известен Байкал как крупнейшее озеро в мире. Многие также знают, что это
+                                 самый большой источник пресной воды и одно из красивейших мест в России.</p>
+                            <p>Конечно, это всё так. Но Байкал ещё идеальное место для соревнований по скийорингу.
+                                 Это такой вид спорта, когда лыжник привязывает себя к мотоциклу, и тандем
+                                  старается развить как можно бóльшую скорость на льду. В марте 2019 года 
+                                  на фестивале «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.</p>
                         </div>
                     </li>
                     <li class="place__item">
                         <h3 class="place__title">Карелия</h3>
                         <div class="place__website">
                             <p class="place__url-heading">URL</p>
-                            <a class="place__link" href="#">http://vodlozero.ru/</a>
+                            <a class="place__link" href="http://vodlozero.ru">http://vodlozero.ru/</a>
                         </div>
-                        <img class="place__image" src="./image/places/place1.png">
+                        <img class="place__image" src="./image/places/place5.png" alt="Леса Карелии">
                         <div class="place__paragraph">
                             <p>Сибирь заканчивается не на Урале, а в Карелии:
                                 образующая тайгу сибирская лиственница не растёт западнее Водлозера.
@@ -165,33 +163,35 @@
                     </li>
                 </ul>
             </section>
-            <section class="cover container-l">
-                <div class="cover__overlay"></div>
+            <section class="cover">                
+                <a class="cover__link" href="https://stampsy.com/na-elektrichkakh-do-baikala">
+                    <div class="cover__overlay"></div>
+                    <h2 class="cover__title">До Байкала «на собаках»</h2>
+                    <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы
+                        до Байкала на электричках.</p>
+                </a>
 
-                <h2 class="cover__title">До Байкала «на собаках»</h2>
-                <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы
-                    до Байкала на электричках.</p>
             </section>
         </main>
-        <footer class="footer container-l">
+        <footer class="footer">
             <ul class="footer__links">
                 <li>
-                    <a class="footer__link" href="#">Карты</a>
+                    <a class="footer__link" href="https://yandex.ru/maps">Карты</a>
                 </li>
                 <li>
-                    <a class="footer__link" href="#">Погода</a>
+                    <a class="footer__link" href="https://yandex.ru/pogoda">Погода</a>
                 </li>
                 <li>
-                    <a class="footer__link" href="#">Расписание</a>
+                    <a class="footer__link" href="https://rasp.yandex.ru">Расписание</a>
                 </li>
                 <li>
-                    <a class="footer__link" href="#">Календарь</a>
+                    <a class="footer__link" href="https://calendar.yandex.ru">Календарь</a>
                 </li>
                 <li>
-                    <a class="footer__link" href="#">Путешествия</a>
+                    <a class="footer__link" href="https://travel.yandex.ru">Путешествия</a>
                 </li>
             </ul>
-            <p class="footer__copyright">&#127279; 2023. Cerea</p>
+            <a class="footer__copyright">&#127279; 2023. Cerea</a>
 
         </footer>
 
