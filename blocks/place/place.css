@@ -1,0 +1,14 @@
+.place {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    margin-top: 92px;
+    padding-left: 0;
+
+}
+
+@media screen and (max-width: 480px) {
+    .place {
+        gap: 50px;
+    }
+}

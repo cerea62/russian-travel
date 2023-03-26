@@ -1,0 +1,9 @@
+.place__link {
+    text-decoration: underline;
+    color: #fff;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.22;
+    margin-top: 12px;
+    cursor: url(../../../image/cursor.png), auto;
+}

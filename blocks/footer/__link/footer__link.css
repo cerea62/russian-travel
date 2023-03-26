@@ -1,0 +1,16 @@
+.footer__link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.12;
+    text-decoration: none;
+    color: #fff;
+    cursor: url(../../../image/cursor.png), auto;
+}
+
+@media screen and (max-width: 570px) {
+    .footer__link {
+        font-size: 24px;
+        line-height: 1;
+    }
+}
+
