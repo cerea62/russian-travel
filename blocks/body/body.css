@@ -2,3 +2,9 @@
     background-color: #2A2C2F;
     box-sizing: border-box;
 }
+p,
+ h1,
+ h2,
+ h3 {
+     margin: 0;
+ }
