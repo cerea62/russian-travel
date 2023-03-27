@@ -1,6 +1,8 @@
 .header__lang {
     display: flex;
     gap: 18px;
+    list-style: none;
+    padding: 0;
 
 }
 @media screen and (max-width: 480px) {

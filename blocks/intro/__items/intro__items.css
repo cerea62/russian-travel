@@ -1,3 +1,9 @@
 .intro__items {
     max-width: 690px;
 }
+
+@media screen and (max-width: 768px) {
+    .intro__items {
+        max-width: 720px;
+    }
+}

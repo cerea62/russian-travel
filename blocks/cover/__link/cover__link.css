@@ -1,14 +1,16 @@
 .cover__link {
     width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
+    min-height: 720px;
     text-decoration: none;
     color: #fff;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    cursor: url(../../../image/cursor.png), auto;
+    cursor: url(../../../image/cursor.svg), auto;
+}
+@media screen and (max-width: 480px) {
+    .cover__link {
+        min-height: 200px;
+    }
 }
