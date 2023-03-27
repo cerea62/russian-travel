@@ -4,7 +4,7 @@
     line-height: 1.12;
     text-decoration: none;
     color: #fff;
-    cursor: url(../../../image/cursor.png), auto;
+    cursor: url(../../../image/cursor.svg), auto;
 }
 
 @media screen and (max-width: 570px) {
