@@ -3,7 +3,7 @@
     font-size: 14px;
     line-height: 1.14;
     margin: 0;
-    cursor: url(../image/cursor.png), auto;
+    cursor: url(../image/cursor.svg), auto;
     text-decoration: none;
     color: #fff;
 }
