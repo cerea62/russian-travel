@@ -4,18 +4,24 @@
     font-weight: 900;
     font-size: 96px;
     line-height: 1.04;
-    margin: 0 auto;
-    max-width: 94%;
+    margin: 0;
+    max-width: 73%;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1260px) {
     .lead__title {
-        max-width: 85%;
+        max-width: 78%;
     }
 }
-@media screen and (max-width: 810px) {
+
+@media screen and (max-width: 1150px) {
     .lead__title {
-        max-width: 94%;
+        max-width: 87%;
+    }
+}
+@media screen and (max-width: 900px) {
+    .lead__title {
+        max-width: 100%;
     }
 }
 

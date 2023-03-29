@@ -15,6 +15,6 @@
 .overlay:hover::before {
     opacity: 0.8;
     transition: opacity 1s;
-    cursor: url(../image/cursor.png), auto;
+    cursor: url(../../image/cursor.svg), auto;
 }
 

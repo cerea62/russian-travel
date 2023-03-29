@@ -6,7 +6,7 @@
     background: none;
     max-width: 360px;
     z-index: 3;
-    margin-top: 32px;
+    margin: 32px 0 0 0;
 }
 
 @media screen and (max-width: 550px) {

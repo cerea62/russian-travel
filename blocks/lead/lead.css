@@ -10,8 +10,14 @@
     .lead {
         max-width: 90%;
     }
-}@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 768px) {
     .lead {
         max-width: 100%;
+    }
+}
+@media screen and (max-width: 460px) {
+    .lead {
+    margin-top: 48px;
     }
 }
