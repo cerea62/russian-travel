@@ -12,7 +12,7 @@
 
 @media screen and (max-width: 1024px) {
     .photo-grid {
-        grid-template-columns: repeat(auto-fit, minmax(300, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
         gap: 14px;
     }
 }
@@ -20,7 +20,7 @@
 @media screen and (max-width: 768px) {
 
     .photo-grid {
-        grid-template-columns: repeat(auto-fit, minmax(352, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(352px, 1fr));
         max-width: 94%;
     }
 }
