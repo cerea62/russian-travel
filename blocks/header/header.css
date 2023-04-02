@@ -2,17 +2,25 @@
     display: flex;
     margin-top: 28px;
     justify-content: space-between;
-    max-width: 92%;
+    max-width: 1184px;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
-@media screen and (max-width: 768px)  {
+
+@media screen and (max-width: 1024px) {
+    .header {
+        max-width: 928px;
+    }
+}
+
+@media screen and (max-width: 768px) {
     .header {
         max-width: 93.7%;
     }
 }
-@media screen and (max-width: 480px)  {
+
+@media screen and (max-width: 480px) {
     .header {
         margin-top: 16px;
     }

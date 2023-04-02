@@ -1,5 +1,6 @@
 .cover {
-    max-width: 92.5%;
+    max-width: 1184px;
+    /* width: 100%; */
     background-image: url(../../image/cover-background.png);
     min-height: 720px;
     margin-top: 92px;
@@ -8,8 +9,8 @@
     background-position: center;
     display: flex;
     position: relative;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 48px;
+    margin-right: 48px;
 }
 
 .cover::after {
@@ -22,8 +23,10 @@
 
 @media screen and (max-width: 1024px) {
     .cover {
-        max-width: 100%;
+        max-width: 1024px;
         min-height: 640px;
+        margin-left: 0;
+        margin-right: 0;
     }
 }
 
@@ -34,7 +37,7 @@
     }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
     .cover {
         margin-top: 66px;
         min-height: 200px;

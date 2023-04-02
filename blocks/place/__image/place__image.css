@@ -2,35 +2,27 @@
     grid-row: 2;
     grid-column: 1;
     max-width: 460px;
-    background-size: contain;
+    /* background-size: cover; */
+    object-fit: cover;
 }
 
-@media screen and (max-width: 1025px) {
+@media screen and (max-width: 1024px) {
     .place__image {
         max-width: 440px;
     }
 }
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
     .place__image {
         max-width: 340px;
     }
 }
-
-@media screen and (max-width: 680px) {
-    .place__image {
-        max-width: 220px;
-    }
-}
-
-@media screen and (max-width: 570px) {
+@media screen and (max-width: 760px) {
     .place__image {
         max-width: 100%;
     }
 }
-
-@media screen and (max-width: 319px) {
+@media screen and (max-width: 320px) {
     .place__image {
-        max-width: 300px;
+        max-width: 320px;
     }
 }

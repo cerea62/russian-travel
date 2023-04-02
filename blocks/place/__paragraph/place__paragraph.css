@@ -20,7 +20,7 @@
 @media screen and (max-width: 570px) {
     .place__paragraph {
         max-width: 90%;
-        margin: 0 0 0 5%;
+        margin: 0 16px 0 16px;
         gap: 25px;
     }
 

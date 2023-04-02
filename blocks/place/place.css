@@ -6,7 +6,11 @@
     margin: 0;
 
 }
-
+@media screen and (max-width: 768px) {
+    .place {
+        gap: 73px;
+    }
+}
 @media screen and (max-width: 480px) {
     .place {
         gap: 50px;
