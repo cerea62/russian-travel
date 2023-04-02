@@ -13,19 +13,14 @@
     }
 
 }
-@media screen and (max-width: 1000px) {
-    .places {
-        max-width: 800px;
-        margin: 88px 24px 0 24px;
-    }
-}
-@media screen and (max-width: 890px) {
+@media screen and (max-width: 1010px) {
     .places {
         max-width: 720px;
         margin: 88px 24px 0 24px;
     }
 }
-@media screen and (max-width: 760px) {
+
+@media screen and (max-width: 780px) {
     .places {
         max-width: 680px;
         margin: 88px 20px 0 20px;
