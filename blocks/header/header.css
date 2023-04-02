@@ -1,14 +1,13 @@
 .header {
+    margin: 28px 48px 0;
     display: flex;
-    margin-top: 28px;
     justify-content: space-between;
     max-width: 1184px;
     width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1025px) {
     .header {
         max-width: 928px;
     }
@@ -16,12 +15,15 @@
 
 @media screen and (max-width: 768px) {
     .header {
-        max-width: 93.7%;
+        max-width: 720px;
+        /* margin-left: 24px;
+        margin-right: 24px; */
     }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 400px) {
     .header {
-        margin-top: 16px;
+        margin: 16px 16px 0;
+        max-width: 288px;
     }
 }
