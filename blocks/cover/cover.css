@@ -9,15 +9,12 @@
     background-position: center;
     display: flex;
     position: relative;
-    /* margin-left: 48px;
-    margin-right: 48px; */
 }
 
 .cover::after {
     content: "";
     width: 0;
     height: 0;
-    /* margin-left: -1px; */
     padding-top: calc(740/1184 * 100%);
 }
 
