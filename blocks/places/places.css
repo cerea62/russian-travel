@@ -21,16 +21,15 @@
     }
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 760px) {
     .places {
         max-width: 680px;
-        margin: 88px 20px 0 20px;
     }
 }
 
 @media screen and (max-width: 720px) {
     .places {
-        max-width: 660px;
+        max-width: 640px;
         margin: 82px 15px 0 15px;
     }
 }
@@ -41,6 +40,5 @@
         display: flex;
         flex-direction: column;
         margin: 64px 0 0 0;
-
     }
 }
