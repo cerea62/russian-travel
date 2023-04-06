@@ -18,8 +18,8 @@
     .intro {
         margin-top: 88px;
         max-width: 768px;
-        padding-left: 22px;
-        padding-right: 22px;
+        padding-left: 24px;
+        padding-right: 24px;
         margin-left: 0;
         margin-right: 0;
 
@@ -28,8 +28,6 @@
 
 @media screen and (max-width: 480px) {
     .intro {
-        /* margin: 64px 16px 0 16px;
-        max-width: 288px; */
         margin-top: 64px;
         padding-left: 16px;
         padding-right: 16px;
